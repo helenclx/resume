@@ -90,6 +90,23 @@
       ]
     },
     {
+      "type": "Templating languages",
+      "tools": [
+        {
+          "language": "Nunjucks",
+          "icon": ""
+        },
+        {
+          "language": "Liquid",
+          "icon": ""
+        },
+        {
+          "language": "Jinja",
+          "icon": ""
+        }
+      ]
+    },
+    {
       "type": "General Purpose (Languages/Tools)",
       "tools": [
         {
