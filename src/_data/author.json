@@ -95,6 +95,10 @@
         {
           "language": "Python",
           "icon": ""
+        },
+        {
+          "language": "C",
+          "icon": ""
         }
       ]
     },
