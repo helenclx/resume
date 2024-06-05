@@ -152,13 +152,13 @@
   "alumniOf": [
     {
       "org": "University",
-      "certification": "Master of Computer Applications",
-      "year_start": "2006",
-      "year_end": "2009",
+      "certification": "Limkokwing University of Creative Technology",
+      "year_start": "2010",
+      "year_end": "2012",
       "address": {
-        "addressLocality": "Amritsar",
-        "addressRegion": "Punjab",
-        "addressCountry": "India"
+        "addressLocality": "Cyberjaya",
+        "addressRegion": "Selangor",
+        "addressCountry": "Malaysia"
       }
     }
   ],
