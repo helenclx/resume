@@ -86,6 +86,27 @@
       ]
     },
     {
+      "type": "Design",
+      "tools": [
+        {
+          "language": "Adobe Photoshop",
+          "icon": ""
+        },
+        {
+          "language": "Adobe Illustrator",
+          "icon": ""
+        },
+        {
+          "language": "GIMP",
+          "icon": ""
+        },
+        {
+          "language": "Figma",
+          "icon": ""
+        }
+      ]
+    },
+    {
       "type": "Other Skills",
       "tools": [
         {
