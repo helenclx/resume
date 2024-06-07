@@ -8,13 +8,10 @@
   "location": "Malaysia",
   "email": "contact@helenchong.dev",
   "address": {
-    "streetAddress": "Jalan Chendera",
     "addressLocality": "Johor Bahru",
     "addressRegion": "Johor",
-    "postalCode": "80300",
     "addressCountry": "Malaysia"
   },
-  "telephone": "+60 12 7881176",
   "website": "https://helenchong.dev",
   "connect": [
     {
