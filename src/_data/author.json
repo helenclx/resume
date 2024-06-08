@@ -317,10 +317,34 @@
   ],
   "hasCredential": [
     {
-      "org": "LinkedIn",
-      "certification": "LinkedIn Learning",
+      "org": "CS50",
+      "certification": "CS50’s Introduction to Computer Science 2024",
+      "year": "2024",
+      "link": "https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367"
+    },
+    {
+      "org": "freeCodeCamp",
+      "certification": "JavaScript Algorithms and Data Structures (Beta) Certification",
+      "year": "2024",
+      "link": "https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures-v8"
+    },
+    {
+      "org": "Chingu",
+      "certification": "Certificate of Completion (Voyage #46)",
       "year": "2023",
-      "link": "https://example.com"
+      "link": "https://helenchong.dev/assets/documents/Chingu-Voyage46-Completion-Cert.pdf"
+    },
+    {
+      "org": "freeCodeCamp",
+      "certification": "Legacy JavaScript Algorithms and Data Structures Certification",
+      "year": "2023",
+      "link": "https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures"
+    },
+    {
+      "org": "freeCodeCamp",
+      "certification": "Responsive Web Design Certification",
+      "year": "2022",
+      "link": "https://www.freecodecamp.org/certification/helenclx/responsive-web-design"
     }
   ]
 }
