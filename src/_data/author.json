@@ -197,19 +197,109 @@
   ],
   "worksFor": [
     {
-      "companyName": "Publicis Sapient",
-      "title": "Senior Manager Experience Engineering",
-      "time_start": "Apr 2012",
+      "companyName": "N/A",
+      "title": "Freelance Graphic Designer",
+      "time_start": "Apr 2021",
       "time_end": "Present",
-      "link": "https://www.publicissapient.com/",
+      "link": "",
       "address": {
-        "streetAddress": "Demo street 1",
-        "addressLocality": "Frankfurt am Main",
-        "addressRegion": "Hessen",
-        "postalCode": "89768",
-        "addressCountry": "Germany"
+        "streetAddress": "",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "",
+        "addressCountry": "Malaysia"
       },
-      "isCurrent": true
+      "isCurrent": false
+    },
+    {
+      "companyName": "TS Media Design & Print",
+      "title": "Contract Graphic Designer",
+      "time_start": "Dec 2021",
+      "time_end": "Jan 2022",
+      "link": "https://www.tsmediadesign.com/",
+      "address": {
+        "streetAddress": "Jalan Dedap 24",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "81100",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
+    },
+    {
+      "companyName": "Hascott Group",
+      "title": "Content Creator/Project Manager",
+      "time_start": "Mar 2021",
+      "time_end": "Apr 2021",
+      "link": "https://www.facebook.com/HascottGroup/",
+      "address": {
+        "streetAddress": "",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
+    },
+    {
+      "companyName": "iPrima Media",
+      "title": "Content Creator/Project Manager",
+      "time_start": "Dec 2021",
+      "time_end": "Jan 2022",
+      "link": "https://www.iprimamedia.com/",
+      "address": {
+        "streetAddress": "Jalan Austin Perdana 3",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "81100",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
+    },
+    {
+      "companyName": "Pelangi Publishing",
+      "title": "Illustrator",
+      "time_start": "Jul 2015",
+      "time_end": "Jun 2020",
+      "link": "https://www.pelangipublishing.com/",
+      "address": {
+        "streetAddress": "Jalan Pingai",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "80400",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
+    },
+    {
+      "companyName": "Chooexpress Label",
+      "title": "Graphic Designer",
+      "time_start": "Jul 2013",
+      "time_end": "Jul 2015",
+      "link": "https://www.chooexpress.com/",
+      "address": {
+        "streetAddress": "Jalan Mutiara Emas 5/6",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "81100",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
+    },
+    {
+      "companyName": "TS Media Design & Print",
+      "title": "Graphic Design Intern",
+      "time_start": "Jun 2012",
+      "time_end": "Aug 2012",
+      "link": "https://www.tsmediadesign.com/",
+      "address": {
+        "streetAddress": "Jalan Dedap 24",
+        "addressLocality": "Johor Bahru",
+        "addressRegion": "Johor",
+        "postalCode": "81100",
+        "addressCountry": "Malaysia"
+      },
+      "isCurrent": false
     }
   ],
   "alumniOf": [
