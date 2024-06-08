@@ -123,6 +123,15 @@
       ]
     },
     {
+      "type": "Source Control",
+      "tools": [
+        {
+          "language": "Git",
+          "icon": ""
+        }
+      ]
+    },
+    {
       "type": "Content Management System",
       "tools": [
         {
