@@ -2,8 +2,22 @@
   {
     "title": "CS50 Flask Blog",
     "link": "https://www.youtube.com/watch?v=eH8Tq57KzXs",
-    "details": "A private blogging application built with Flask. My final project for CS50x 2024.",
+    "details": "Allows users to search for recipes by entering an ingredient. Developed by Chingu Voyage 46 Tier 1 Team 1, in which I was part of.",
     "status": "completed",
     "technologies": ["Flask", "SQL", "HTML", "Bootstrap"]
+  },
+  {
+    "title": "Recipe Hub",
+    "link": "https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/",
+    "details": "Allows users to search for recipes by entering an ingredient. Developed by Chingu Voyage 46 Tier 1 Team 1, in which I was part of.",
+    "status": "live",
+    "technologies": ["HTML", "CSS", "JavaScript", "API"]
+  },
+  {
+    "title": "Quizzical",
+    "link": "https://helenchong.dev/Scrimba-React-Solo-Projects/3-quizzical/",
+    "details": "Quiz game built with React and data from the Open Trivia Database API.",
+    "status": "live",
+    "technologies": ["React.js", "API"]
   }
 ]
