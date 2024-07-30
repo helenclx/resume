@@ -7,6 +7,7 @@
     "start": "npm-run-all -p dev:*",
     "build": "run-s build:*",
     "build-ghpages": "npx @11ty/eleventy",
+    "build-host": "npx @11ty/eleventy",
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --watch --postcss",
     "build:11ty": "eleventy",
