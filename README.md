@@ -1,6 +1,6 @@
-# Helen Chong's Resume
+# Helen Chong's Résumé
 
-Helen Chong's resume. Built with Eleventy
+Helen Chong's résumé. Built with Eleventy
 
 ## Features
 
