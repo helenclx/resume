@@ -208,7 +208,7 @@ a:hover { color: var(--clr-link-hover); }
 }
 
 .entrylist {
-    --list-item-top: 2.25rem;
+    --list-item-top: 2.15rem;
 	position: relative;
 	padding-left: 1rem;
     list-style: "";
