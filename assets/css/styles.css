@@ -126,6 +126,8 @@ a:hover { color: var(--clr-link-hover); }
     background-color: var(--clr-accent-1);
     width: 100%;
     text-align: center;
+    display: grid;
+    gap: 1em;
 }
 
 /* V-card */
