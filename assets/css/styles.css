@@ -1,13 +1,15 @@
+html { color-scheme: light dark; }
+
 /* ------------------- */
 /* Custom Properties   */
 /* ------------------- */
 :root {
-    --clr-body-bg: #fffbeb;
-    --clr-body-txt: #000;
-    --clr-link: #92350e;
-    --clr-link-hover: #ba4817;
-    --clr-accent-1: #fef3c7;
-    --clr-accent-2: #fabe25;
+    --clr-body-bg: light-dark(#fffbeb, #451a03);
+    --clr-body-txt: light-dark(#000, #fffbeb);
+    --clr-link: light-dark(#92350e, #fabe25);
+    --clr-link-hover: light-dark(#ba4817, #d29f1f);
+    --clr-accent-1: light-dark(#fef3c7, #78340f);
+    --clr-accent-2: light-dark(#fabe25, #d87607);
     --clr-entry-bdr: #818a91;
     --clr-list-bullet: #fc6767;
 
@@ -20,17 +22,6 @@
     --fs-entry-title: 1.5rem;
 
     --sz-width-padding: 5%;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --clr-body-bg: #451a03;
-        --clr-body-txt: #fffbeb;
-        --clr-link: #fabe25;
-        --clr-link-hover: #d29f1f;
-        --clr-accent-1: #78340f;
-        --clr-accent-2: #d87607;
-    }
 }
 
 /* ------------------- */
