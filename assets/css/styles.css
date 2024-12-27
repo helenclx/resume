@@ -166,6 +166,7 @@ a:hover { color: var(--clr-link-hover); }
 }
 
 .vcard__link { text-decoration: none; }
+.email-encoded b { display: none; }
 
 /* Sections */
 .section {
