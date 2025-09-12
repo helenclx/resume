@@ -1,6 +1,6 @@
 {% if collections.projects.length %}
 <ol class="projectlist">
-{% for project in collections.projects %}
+{% for project in collections.projects | reverse %}
     <li class="projectlist__item">
     {% if project.data.url %}
         <h3 class="project__title"><a href="{{ project.data.url }}">{{ project.data.title }}</a></h3>
