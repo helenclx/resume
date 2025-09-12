@@ -4,6 +4,8 @@ Helen Chong's résumé. Built with Eleventy.
 
 ## Run Locally
 
+Requirement: [Node.js](https://nodejs.org/).
+
 1. Clone this repository locally
     ```
     git clone https://git.helenchong.dev/helenchong/helenchong-resume.git
