@@ -1,20 +1,20 @@
 {% if collections.projects.length %}
 <ol class="projectlist">
 {% for project in collections.projects | reverse %}
-    <li class="projectlist__item">
-    {% if project.data.url %}
-        <h3 class="project__title"><a href="{{ project.data.url }}">{{ project.data.title }}</a></h3>
-    {% else %}
-        <h3 class="project__title">{{ project.data.title }}</h3>
-    {% endif %}
-        <p class="project__desc">{{ project.templateContent | safe }}</p>
-        <h4>{{ strings.titles.tech }}:</h4>
-        <ul class="project__tech">
-        {% for tech in project.data.tech %}
-            <li class="project__tech--item">{{ tech }}</li>
-        {% endfor %}
-        </ul>
-    </li>
+	<li class="projectlist__item">
+	{% if project.data.url %}
+		<h3 class="project__title"><a href="{{ project.data.url }}">{{ project.data.title }}</a></h3>
+	{% else %}
+		<h3 class="project__title">{{ project.data.title }}</h3>
+	{% endif %}
+		<p class="project__desc">{{ project.templateContent | safe }}</p>
+		<h4>{{ strings.titles.tech }}:</h4>
+		<ul class="project__tech">
+		{% for tech in project.data.tech %}
+			<li class="project__tech--item">{{ tech }}</li>
+		{% endfor %}
+		</ul>
+	</li>
 {% endfor %}
 </ol>
 {% endif %}

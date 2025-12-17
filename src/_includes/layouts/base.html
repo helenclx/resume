@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ sitemeta.lang }}">
-    <head>
-        {% include "partials/meta.html" %}
-        <link rel="manifest" href="./assets/favicon/site.webmanifest">
-        <!-- CSS -->
-        <link rel="stylesheet" href="./assets/css/styles.css">
-    </head>
-    <body>
-        {% include "partials/header.html" %}
-        {{ content | safe }}
-        {% include "partials/footer.html" %}
-    </body>
+	<head>
+		{% include "partials/meta.html" %}
+		<link rel="manifest" href="./assets/favicon/site.webmanifest">
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/css/styles.css">
+	</head>
+	<body>
+		{% include "partials/header.html" %}
+		{{ content | safe }}
+		{% include "partials/footer.html" %}
+	</body>
 </html>

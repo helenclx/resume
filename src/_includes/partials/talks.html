@@ -1,26 +1,26 @@
 {% if collections.talks.length %}
 <ol class="entrylist" reversed>
 {% for talk in collections.talks | reverse %}
-    <li class="entrylist__item">
-        <div class="entry__header">
-        {% if talk.data.url %}
-            <h3 class="entry__title"><a href="{{ talk.data.url }}">{{ talk.data.title }}</a></h3>
-        {% else %}
-            <h3 class="entry__title">{{ talk.data.title }}</h3>
-        {% endif %}
-            <p class="entry__time">
-                <time datetime="{{ talk.data.date | dateToFormat("yyyy-MM-dd") }}">
-                    {{ talk.data.date | dateToFormat("d LLLL yyyy") }}
-                </time>
-            </p>
-            <p>{{ talk.data.organization }}</p>
-        </div>
-        {% if talk.templateContent %}
-        <div class="entry__content">
-            {{ talk.templateContent | safe }}
-        </div>
-        {% endif %}
-    </li>
+	<li class="entrylist__item">
+		<div class="entry__header">
+		{% if talk.data.url %}
+			<h3 class="entry__title"><a href="{{ talk.data.url }}">{{ talk.data.title }}</a></h3>
+		{% else %}
+			<h3 class="entry__title">{{ talk.data.title }}</h3>
+		{% endif %}
+			<p class="entry__time">
+				<time datetime="{{ talk.data.date | dateToFormat("yyyy-MM-dd") }}">
+					{{ talk.data.date | dateToFormat("d LLLL yyyy") }}
+				</time>
+			</p>
+			<p>{{ talk.data.organization }}</p>
+		</div>
+		{% if talk.templateContent %}
+		<div class="entry__content">
+			{{ talk.templateContent | safe }}
+		</div>
+		{% endif %}
+	</li>
 {% endfor %}
 </ol>
 {% endif %}

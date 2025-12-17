@@ -1,21 +1,21 @@
 {% if collections.certifications.length %}
 <ol class="entrylist" reversed>
 {% for cert in collections.certifications | reverse %}
-    <li class="entrylist__item">
-    <div class="entry__header">
-    {% if cert.data.url %}
-        <h3 class="entry__title"><a href="{{ cert.data.url }}">{{ cert.data.title }}</a></h3>
-    {% else %}
-        <h3 class="entry__title">{{ cert.data.title }}</h3>
-    {% endif %}
-        <p class="entry__time">
-            <time datetime="{{ cert.data.date | dateToFormat("yyyy-MM-dd") }}">
-                {{ cert.data.date | dateToFormat("d LLLL yyyy") }}
-            </time>
-        </p>
-        <p>{{ cert.data.organization }}</p>
-    </div>
-    </li>
+	<li class="entrylist__item">
+	<div class="entry__header">
+	{% if cert.data.url %}
+		<h3 class="entry__title"><a href="{{ cert.data.url }}">{{ cert.data.title }}</a></h3>
+	{% else %}
+		<h3 class="entry__title">{{ cert.data.title }}</h3>
+	{% endif %}
+		<p class="entry__time">
+			<time datetime="{{ cert.data.date | dateToFormat("yyyy-MM-dd") }}">
+				{{ cert.data.date | dateToFormat("d LLLL yyyy") }}
+			</time>
+		</p>
+		<p>{{ cert.data.organization }}</p>
+	</div>
+	</li>
 {% endfor %}
 </ol>
 {% endif %}

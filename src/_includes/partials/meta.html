@@ -27,22 +27,22 @@
 
 {# JSON LD #}
 <script type="application/ld+json">
-    {
-        "name":"{{ author.name }}",
-        "description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
-        "author": {
-            "@type":"Person",
-            "name":"{{ author.name }}"
-        },
-        "@type":"WebSite",
-        "url":"{{ sitemeta.url }}",
-        "image":"{{ sitemeta.url }}/assets/img/{{ author.profilePic }}",
-        "headline":"{{ author.name }}",
-        "sameAs":[
-            {%- for social in author.socials -%}
-                "{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
-            {%- endfor -%}
-        ],
-        "@context":"http://schema.org"
-    }
+	{
+		"name":"{{ author.name }}",
+		"description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
+		"author": {
+			"@type":"Person",
+			"name":"{{ author.name }}"
+		},
+		"@type":"WebSite",
+		"url":"{{ sitemeta.url }}",
+		"image":"{{ sitemeta.url }}/assets/img/{{ author.profilePic }}",
+		"headline":"{{ author.name }}",
+		"sameAs":[
+			{%- for social in author.socials -%}
+				"{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
+			{%- endfor -%}
+		],
+		"@context":"http://schema.org"
+	}
 </script>
