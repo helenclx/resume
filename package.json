@@ -1,18 +1,18 @@
 {
-    "name": "resume",
-    "description": "Helen Chong's online résumé.",
-    "author": "Helen Chong",
-    "repository": {
-        "type": "git",
-        "url": "https://git.helenchong.dev/helenchong/helenchong-resume.git"
-    },
-    "type": "module",
-    "scripts": {
-        "build": "npx @11ty/eleventy",
-        "build-quiet": "npm run build -- --quiet",
-        "start": "npm run build-quiet -- --serve"
-    },
-    "dependencies": {
-        "@11ty/eleventy": "^3.1.2"
-    }
+	"name": "resume",
+	"description": "Helen Chong's online résumé.",
+	"author": "Helen Chong",
+	"repository": {
+		"type": "git",
+		"url": "https://git.helenchong.dev/helenchong/helenchong-resume.git"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-quiet": "npm run build -- --quiet",
+		"start": "npm run build-quiet -- --serve"
+	},
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2"
+	}
 }
