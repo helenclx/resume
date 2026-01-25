@@ -4,7 +4,7 @@ Helen Chong's résumé. Built with Eleventy.
 
 ## Run Locally
 
-Requirement: [Node.js](https://nodejs.org/).
+Requirement: [pnpm](https://pnpm.io/).
 
 1. Clone this repository locally
     ```
@@ -12,11 +12,11 @@ Requirement: [Node.js](https://nodejs.org/).
     ```
 1. Install dependencies
     ```
-    npm install
+    pnpm install
     ```
 1. Run the project
     ```
-    npm run start
+    pnpm dev
     ```
 1. Open http://localhost:8080/ in your browser
 

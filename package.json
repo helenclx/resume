@@ -8,11 +8,12 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-quiet": "npm run build -- --quiet",
-		"start": "npm run build-quiet -- --serve"
+		"build": "pnpm exec eleventy",
+		"build-quiet": "pnpm build --quiet",
+		"dev": "pnpm build-quiet --serve"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "^3.1.2"
+		"@11ty/eleventy": "^3.1.2",
+		"luxon": "^3.7.2"
 	}
 }
