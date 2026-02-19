@@ -109,7 +109,7 @@ a:hover { color: var(--clr-link-hover); }
 	width: 100%;
 	text-align: center;
 	display: grid;
-	gap: 1em;
+	gap: 0.5em;
 }
 
 /* V-card */
