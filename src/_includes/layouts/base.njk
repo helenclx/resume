@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ sitemeta.lang }}">
 	<head>
-		{% include "partials/meta.html" %}
+		{% include "partials/meta.njk" %}
 		<link rel="manifest" href="./assets/favicon/site.webmanifest">
 		<!-- CSS -->
 		<link rel="stylesheet" href="./assets/css/styles.css">
 	</head>
 	<body>
-		{% include "partials/header.html" %} {{ content | safe }} {% include
-		"partials/footer.html" %}
+		{% include "partials/header.njk" %}
+		{{ content | safe }}
+		{%
+			include
+			"partials/footer.njk"
+		%}
 	</body>
 </html>
