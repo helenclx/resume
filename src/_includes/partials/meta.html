@@ -2,14 +2,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>{{ sitemeta.title }}</title>
-<meta content="resume, cv, about, personal, profile, portfolio, {{ author.name | lower }}" name="keywords">
+<meta
+	content="resume, cv, about, personal, profile, portfolio, {{ author.name | lower }}"
+	name="keywords"
+>
 <meta content="This is the résumé of {{ author.name }}." name="description">
 
 <link rel="canonical" href="{{ sitemeta.canonical }}">
 <meta property="og:locale" content="{{ sitemeta.locale }}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Résumé of {{ author.name }}">
-<meta property="og:description" content="{{ author.name }}, {{ author.occupation }}.">
+<meta
+	property="og:description"
+	content="{{ author.name }}, {{ author.occupation }}."
+>
 <meta property="og:url" content="{{ sitemeta.url }}">
 <meta property="og:site_name" content="{{ author.name }}">
 
@@ -27,22 +33,22 @@
 
 {# JSON LD #}
 <script type="application/ld+json">
-	{
-		"name":"{{ author.name }}",
-		"description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
-		"author": {
-			"@type":"Person",
-			"name":"{{ author.name }}"
-		},
-		"@type":"WebSite",
-		"url":"{{ sitemeta.url }}",
-		"image":"{{ sitemeta.url }}/assets/img/{{ author.profilePic }}",
-		"headline":"{{ author.name }}",
-		"sameAs":[
-			{%- for social in author.socials -%}
-				"{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
-			{%- endfor -%}
-		],
-		"@context":"http://schema.org"
-	}
+{
+	"name":"{{ author.name }}",
+	"description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
+	"author": {
+		"@type":"Person",
+		"name":"{{ author.name }}"
+	},
+	"@type":"WebSite",
+	"url":"{{ sitemeta.url }}",
+	"image":"{{ sitemeta.url }}/assets/img/{{ author.profilePic }}",
+	"headline":"{{ author.name }}",
+	"sameAs":[
+		{%- for social in author.socials -%}
+			"{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
+		{%- endfor -%}
+	],
+	"@context":"http://schema.org"
+}
 </script>

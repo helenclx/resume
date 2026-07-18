@@ -7,17 +7,17 @@ Helen Chong's résumé. Built with Eleventy.
 Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
-    ```
-    git clone https://git.helenchong.dev/helenchong/helenchong-resume.git
-    ```
+   ```
+   git clone https://git.helenchong.dev/helenchong/helenchong-resume.git
+   ```
 1. Install dependencies
-    ```
-    npm install
-    ```
+   ```
+   npm install
+   ```
 1. Run the project
-    ```
-    npm run dev
-    ```
+   ```
+   npm run dev
+   ```
 1. Open http://localhost:8080/ in your browser
 
 ## Licence

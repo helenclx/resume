@@ -1,3 +1,3 @@
 export default {
-    tags: "projects"
-}
+	tags: "projects",
+};
