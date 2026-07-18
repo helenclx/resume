@@ -10,10 +10,20 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-quiet": "npm run build -- --quiet",
-		"dev": "npm run build-quiet -- --serve"
+		"dev": "npm run build-quiet -- --serve",
+		"lint": "npm run lint:biome && npm run lint:dprint",
+		"lint:biome": "npx @biomejs/biome check .",
+		"lint:dprint": "npx dprint check",
+		"format": "npm run format:biome && npm run format:dprint",
+		"format:biome": "npx @biomejs/biome format --write",
+		"format:dprint": "npx dprint fmt"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.6",
 		"luxon": "^3.7.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.4",
+		"dprint": "^0.55.2"
 	}
 }
