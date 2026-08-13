@@ -40,7 +40,12 @@ export const skills = [
 	},
 	{
 		category: "Best Practices",
-		list: ["Accessibility (a11y)", "Inclusive Deisgn", "Responsive Deisgn"],
+		list: [
+			"Accessibility (a11y)",
+			"Inclusive Deisgn",
+			"Responsive Deisgn",
+			"Progressive Enhancement",
+		],
 	},
 	{
 		category: "Fields",
