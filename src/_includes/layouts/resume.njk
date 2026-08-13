@@ -48,11 +48,14 @@ layout: layouts/base
 	{% if author.skills %}
 		<section class="section" id="section-skills">
 			<h2 class="section__title">{{ strings.titles.skills }}</h2>
-			<ul class="bulletlist section__skills">
-				{% for skill in author.skills %}
-					<li class="item--styled p-skill">{{ skill }}</li>
-				{% endfor %}
-			</ul>
+			{% for skill in author.skills %}
+				<h3 class="section__h3">{{ skill.category }}</h3>
+				<ul class="bulletlist section__skills">
+					{% for item in skill.list %}
+						<li class="item--styled p-skill">{{ item }}</li>
+					{% endfor %}
+				</ul>
+			{% endfor %}
 		</section>
 	{% endif %}
 	{% if author.languages %}

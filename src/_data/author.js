@@ -1,5 +1,5 @@
 export const name = "Helen Chong";
-export const occupation = "Web Developer";
+export const occupation = "Software Developer";
 export const location = "Malaysia";
 export const profilePic = "profilepic.avif";
 export const pronouns = "they/them or she/her";
@@ -7,34 +7,62 @@ export const email =
 	'<span class="email-encoded">contact@helenchong<b>.nospam</b>.dev</span>';
 export const website = "https://helenchong.dev";
 export const skills = [
-	"HTML",
-	"CSS",
-	"JavaScript",
-	"Linux",
-	"Git",
-	"PHP",
-	"WordPress",
-	"Python",
-	"C",
-	"MySQL",
-	"SQLite",
-	"React",
-	"System Administration",
-	"Graphic Design",
-	"Photography",
-	"Adobe Photoshop",
-	"Adobe Illustrator",
-	"Canva",
-	"Figma",
+	{
+		category: "Computer Languages",
+		list: [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Python",
+			"Markdown",
+			"PHP",
+			"C",
+			"SQL",
+		],
+	},
+	{
+		category: "Frameworks and Libraries",
+		list: ["Eleventy", "Node.js", "WordPress", "Flask"],
+	},
+	{
+		category: "Tools",
+		list: ["Linux", "Git", "Docker", "Caddy", "Netlify"],
+	},
+	{
+		category: "Design and Styling",
+		list: [
+			"Adobe Phothsop",
+			"Adobe Illustrator",
+			"Affinity Suite",
+			"Canva",
+			"Figma",
+		],
+	},
+	{
+		category: "Best Practices",
+		list: ["Accessibility (a11y)", "Inclusive Deisgn", "Responsive Deisgn"],
+	},
+	{
+		category: "Fields",
+		list: [
+			"Web Development",
+			"Web Deisgn",
+			"Software Development",
+			"System Administration",
+			"Technical Writing",
+			"Graphic Design",
+			"Photography",
+		],
+	},
 ];
 export const languages = [
 	{
 		name: "Mandarin",
-		level: "native",
+		level: "native/bilingual",
 	},
 	{
 		name: "English",
-		level: "fluent",
+		level: "bilingual",
 	},
 	{
 		name: "Cantonese",

@@ -235,6 +235,12 @@ footer {
 	border-bottom: 0.05em solid var(--clr-accent-2);
 }
 
+.section__h3 {
+	font-size: 1.55rem;
+	margin-top: 1.75em;
+	margin-bottom: 0.7em;
+}
+
 .section__lead {
 	display: grid;
 	gap: 1em;
