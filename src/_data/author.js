@@ -54,6 +54,7 @@ export const skills = [
 			"Web Deisgn",
 			"Software Development",
 			"System Administration",
+			"Self-Hosting",
 			"Technical Writing",
 			"Graphic Design",
 			"Photography",
